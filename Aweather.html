@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Aweather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+<center>
+    <div class="container">
+
+            <h1>Weather Monitoring</h1>
+            <br><br>
+            <input type="text" placeholder="Enter Your City..." id="cityin">
+            <button id="btn">Click</button>
+
+    </div>
+
+    <br><br><br><br>
+
+    <h2 style="color:black" class="coun">City:</h2>
+    <h3 id="city"></h3>
+
+    <div class="box" style="text-align: center;">
+
+
+        <div class="icon">
+
+            <div class="straight">
+                <h2>Timezone</h2>
+                <i class="fa-solid fa-timeline fa-2x"></i>
+            </div>
+            <h3 id="weather"></h3>
+
+            <br>
+
+            <div class="straight">
+                <h2>Temperature</h2>
+                <i class="fa-solid fa-temperature-low fa-2x"></i>
+            </div>
+            <h3 id="temp"></h3>
+
+            <br>
+
+            <div class="straight">
+                <h2>Humidity</h2>
+                <i class="fa-regular fa-droplet-degree"></i>
+            </div>
+            <h3 id="Humidity"></h3>
+
+        </div>
+
+
+        <div>
+
+            <div class="straight">
+                <h2>Pressure</h2>
+                <i class="fa-sharp fa-solid fa-tire-pressure-warning"></i>
+            </div>
+            <h3 id="pressure"></h3>
+
+            <br>
+
+            <div class="straight">
+                <h2>Wind Speed</h2>
+                <i class="fa-solid fa-wind fa-2x"></i>
+            </div>
+            <h3 id="windspeed"></h3>
+
+            <br>
+
+            <div class="straight">
+                <h2>Wind Deg</h2>
+                <i class="fa-solid fa-droplet-degree"></i>
+            </div>
+            <h3 id="winddeg"></h3>
+
+        </div>
+
+
+    </div>
+
+    <h2 class="coun">Country:</h2>
+    <h3 id="country" style="color:brown"></h3>
+
+</center>
+
+<script src="Aweather.js"></script>
+
+
+</body>
+</html>
